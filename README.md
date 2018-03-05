@@ -11,7 +11,7 @@ By Project alva.
 ## Installation
 ### NPM
 ```bash
-npm install shapeways-node2018
+npm install shapeways-alva
 ```
 
 ## Documentation
