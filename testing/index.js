@@ -1,7 +1,7 @@
 const http = require('http');
 const fs = require('fs');
 const url = require('url');
-const shapeways = require('shapewaysnode-2018');
+const shapeways = require('shapeways-alva');
 
 //Const & Variabels
 const server_port = 1337;
