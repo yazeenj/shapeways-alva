@@ -1,0 +1,22 @@
+{
+  "name": "shapeways-alva",
+  "version": "1.0.0",
+  "description": "Custom Node Module to interact with shapeways API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yazeenj/shapeways-node2018.git"
+  },
+  "author": "Yazeen (http://yznit.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yazeenj/shapeways-node2018/issues"
+  },
+  "homepage": "https://github.com/yazeenj/shapeways-node2018#readme",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
