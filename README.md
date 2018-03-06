@@ -44,7 +44,7 @@ Import module
 
 ```js
 
-const shapeways = require('shapewaysnode-2018');
+const shapeways = require('shapeways-alva');
 
 ```
 
