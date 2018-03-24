@@ -193,6 +193,29 @@ function onRequest(req, res){
       res.end(JSON.stringify(resp));
     });
   }
+  else if(req.url == "/getorderinfo"){
+    shapeways.getOrderInfo(123456,function(err,resp){
+      if(err){
+        res.writeHead(200, {"Content-Type": "application/json"});
+        res.end(JSON.stringify(err));
+      }
+      res.writeHead(200, {"Content-Type": "application/json"});
+      res.end(JSON.stringify(resp));
+    });
+  }
+  else if(req.url == "/createorder"){
+    var params = {
+
+    };
+    shapeways.createOrder(params,function(err,resp){
+      if(err){
+        res.writeHead(200, {"Content-Type": "application/json"});
+        res.end(JSON.stringify(err));
+      }
+      res.writeHead(200, {"Content-Type": "application/json"});
+      res.end(JSON.stringify(resp));
+    });
+  }
   else if (req.url == "/addmodelphoto"){
 
       fs.readFile("../3d_models/test.jpg",function(err,data){

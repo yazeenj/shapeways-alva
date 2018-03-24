@@ -31,6 +31,12 @@ npm install shapeways-alva
 - getModelFile(modelId, fileVersion, callback)
 - addModelPhoto(modelId, params, callback)
 
+### Checkout API (REQUIRES PERMISSION TO USE)
+
+- getOrders(callback)
+- getOrderInfo(orderId, callback)
+- createOrder(parmas, callback)
+
 ### HTTP Request Handling
 
 - getReq(url, callback)
@@ -39,6 +45,8 @@ npm install shapeways-alva
 - deleteReq(url, callback)
 
 ## Example
+
+*(See /testing folder in github-repo for more examples)*
 
 Import module
 
@@ -80,7 +88,6 @@ shapeways.addToCart(params, function(err,resp){
 
 ```
 > **NOTE:** `resp` and `err` is a JSON objects, tip: JSON.stringify().
-
 
 ## License
   ```
