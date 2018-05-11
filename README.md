@@ -6,7 +6,8 @@ Node Shapeways 2018
 ![node](https://img.shields.io/badge/node-v8.9.4-brightgreen.svg)
 
 Custom node.js module for accessing the [Shapeways](http://www.shapeways.com) api.
-By Project alva.
+By Project alva.<br/>
+![Shapewayslogo](https://www.shapeways.com/rrstatic/img/sw-logo-dark-blue.svg)
 
 ## Installation
 ### NPM
