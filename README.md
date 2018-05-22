@@ -1,11 +1,12 @@
-Node Shapeways 2018
+Node Shapeways 2018 (shapeways-alva)
 ==============
 
+[![CodeFactor](https://www.codefactor.io/repository/github/yazeenj/shapeways-alva/badge/master)](https://www.codefactor.io/repository/github/yazeenj/shapeways-alva/overview/master)
 ![license](https://img.shields.io/github/license/mashape/apistatus.svg)
 ![npm](https://img.shields.io/badge/npm-v.5.6.0-blue.svg)
 ![node](https://img.shields.io/badge/node-v8.9.4-brightgreen.svg)
 
-Custom node.js module for accessing the [Shapeways](http://www.shapeways.com) api.
+Custom node.js module for accessing the [Shapeways](http://www.shapeways.com) api using oAuth 2.
 By Project alva.<br/>
 ![Shapewayslogo](https://www.shapeways.com/rrstatic/img/sw-logo-dark-blue.svg)
 
